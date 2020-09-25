@@ -1,0 +1,37 @@
+{
+  "name": "@dkh-dev/html-metadata-parser",
+  "version": "1.0.0",
+  "description": "HTML Metadata Parser",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "sax": "^1.2.4"
+  },
+  "devDependencies": {
+    "@dkh-dev/eslint-config": "^1.6.2",
+    "tape": "^5.0.1"
+  },
+  "scripts": {
+    "test": "node test",
+    "prepublishOnly": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dkh-dev/html-metadata-parser.git"
+  },
+  "keywords": [
+    "metadata",
+    "parser",
+    "html",
+    "meta",
+    "page"
+  ],
+  "author": "Hoang <dangkyokhoang@gmail.com> (https://dangkyokhoang.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkh-dev/html-metadata-parser/issues"
+  },
+  "homepage": "https://github.com/dkh-dev/html-metadata-parser#readme"
+}
